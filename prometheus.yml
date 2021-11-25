@@ -31,3 +31,4 @@ scrape_configs:
         - "sampleapp:8080"
         - "10.250.3.4:9100"
         - "grafana:3000"
+        - "nginx-exporter:9113"
