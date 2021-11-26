@@ -70,6 +70,11 @@ services:
     ports:
       - "8025:8025"
 
+  influxdb:
+    image: influxdb:latest
+    ports:
+      - "8086:8086"
+
 volumes:
   loki:
   grafana:
